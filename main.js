@@ -102,3 +102,26 @@ firstName
   : first_name
     ? console.log("first name not provided")
     : console.log("first name not provided");
+
+// switch statement
+const user = "vendor";
+switch (user) {
+  case "logistics":
+    console.log("logistic user signed in");
+    break;
+
+  case "admin":
+    console.log("Admin user signed in");
+    break;
+
+  case "customer":
+    console.log("Customer signed in");
+    break;
+
+  case "vendor":
+    console.log("Vendor signed in");
+    break;
+
+  default:
+    console.log("Unknown user signed in");
+}
